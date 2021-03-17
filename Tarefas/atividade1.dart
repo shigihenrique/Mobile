@@ -23,7 +23,7 @@ int destruirPetecas(numPetecas, numAmigos) {
   return destruir;
 }
 
-int marteloThor(thor, martelo) {
+void marteloThor(thor, martelo) {
   int x_thor = thor[0];
   int y_thor = thor[1];
 
