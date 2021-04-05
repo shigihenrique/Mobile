@@ -54,9 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 List<Widget> retornaRows() {
   List lista = marteloThor([5, 2], [4, 7]);
-  print(lista);
   int tamanho = tam(lista);
-  print(tamanho);
   List<Widget> rows = [];
 
   for (int i = 0; i < 10; i++) {
@@ -75,7 +73,6 @@ List<Widget> retornaContainers(lista, i, tamanho) {
     bool fim = false;
     for (int cont = 0; cont < tamanho; cont++) {
       List xyLista = lista[cont];
-      print(xyLista);
       int xLista = xyLista[0];
       int yLista = xyLista[1];
       if (i == xLista && j == yLista) {
