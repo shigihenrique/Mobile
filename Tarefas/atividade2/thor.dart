@@ -36,13 +36,6 @@ int tam(lista) {
   return tamanho;
 }
 
-int cont = 0;
-int getCont(tamanho) {
-  if (cont < tamanho) {
-    return cont++;
-  }
-}
-
 //FUNCAO PRINCIPAL
 void main() {
   /*
