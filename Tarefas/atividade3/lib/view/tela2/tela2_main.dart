@@ -28,7 +28,7 @@ Widget presentationScreen() {
                 fontSize: 40,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2,
-                color: Colors.blueAccent)),
+                color: Colors.greenAccent)),
         Text("📍São Paulo - SP, Brasil",
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -37,7 +37,7 @@ Widget presentationScreen() {
                 letterSpacing: 2,
                 color: Colors.grey)),
         Text(
-          "\nDescrição",
+          "\nEstudante de Sistemas de Informação (2019 - 2022), grande amante de carros, com 20 anos, e futuro DBA ou analista de BI.",
           textAlign: TextAlign.left,
           style: TextStyle(
               fontSize: 20,
